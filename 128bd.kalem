@@ -1,0 +1,17 @@
+!include_dir(".")
+
+#include {
+    <ios>
+    <math>
+    <variables>
+}
+
+@main int {
+    unsign i 0
+
+    loop i != 128 {
+        @ios::println(math::pow(2,7), "\bbd")
+
+        ++i
+    }
+}
